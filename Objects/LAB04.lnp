@@ -1,0 +1,7 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\lucaskelleylab04.o"
+".\objects\startup_lpc407x_8x_177x_8x.o"
+--strict --scatter ".\Objects\LAB04.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LAB04.map" -o .\Objects\LAB04.axf
